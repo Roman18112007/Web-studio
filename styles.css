@@ -1,7 +1,7 @@
 :root {
 --accent-color: #2196F3;
 --main-color:#212121;
---add-black:#2F303A;
+--background-colour:#2F303A;
 --add-white:#FFFFFF;
 --bg-light-gray:#F5F4FA;
 }
@@ -15,7 +15,7 @@
 }
 .bussines
 {
-     background-color:var(--add-black);
+     background-color:var(--background-colour);
 }
 .effectively
 {
@@ -27,11 +27,11 @@ h3
 }
 p
 {
-    color: var(--add-black);
+    color: var(--background-colour);
 }
 .footer
 {
-    background-color:var(--add-black);
+    background-color:var(--background-colour);
 }
 .team
 {
