@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../HW4/images3"
+	},
+	{
+		"path": "../HW4/images2"
+	},
+	{
+		"path": "../HW4/images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Web-studio"
+  }
+}
