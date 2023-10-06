@@ -72,14 +72,15 @@ p
     font-family: Roboto;
     font-size: 14px;
     letter-spacing: 0.28px;
-
+text-decoration: none;
 }
 
-.header-contact-item {
+.header-contact-link {
     color: var(--main-color);
     font-family: Roboto;
     font-size: 14px;
     letter-spacing: 0.28px;
+    text-decoration: none;
 }
 
 .business {
@@ -175,6 +176,7 @@ p
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
+    text-decoration: none;
 }
 
 .footer-date {
@@ -183,4 +185,9 @@ p
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.42px;
+    text-decoration: none;
+}
+.logo-footer
+{
+    color: var(--add-white);
 }
