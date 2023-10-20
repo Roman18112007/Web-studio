@@ -54,14 +54,55 @@ p
 .body {
     font-family: Roboto;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .list {
     list-style: none;
+    padding: 0;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;}
+    padding: 0 15px;
+}
+
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -69,9 +110,11 @@ p
     letter-spacing: 0.78px;
     color: var(--main-color);
 }
+
 .colortext {
     color: var(--accent-color);
 }
+
 .nav-link {
     color: var(--main-color);
     font-size: 14px;
@@ -79,9 +122,10 @@ p
     letter-spacing: 0.28px;
     text-decoration: none;
 }
+
 .nav-link:hover,
 .nav-link:focus {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 
@@ -92,12 +136,16 @@ p
     letter-spacing: 0.28px;
     text-decoration: none;
 }
-.header-contact-link:hover,.header-contact-link:focus {
+
+.header-contact-link:hover,
+.header-contact-link:focus {
     color: var(--accent-color);
 }
 
 .business {
     background-color: var(--background-colour);
+    margin-top: 188px;
+    margin-bottom: 200px;
 }
 
 .business-title {
@@ -119,27 +167,40 @@ p
     text-align: center;
     background: var(--accent-color);
 }
-.filters-btn {
-    color:var(--main-color);
-     font-weight: 500;
-        line-height: 1.62;
-        letter-spacing: 0.48px;
+.project {
+    padding-top: 42px;
+    padding-bottom: 94px;
 }
-.filters-btn:hover,.pages-btn:focus{
+.filters-btn {
+    color: var(--main-color);
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
     background-color: var(--accent-color);
     color: var(--add-white);
     cursor: pointer;
 }
+
 .projects-title {
-    color:var(--main-color);
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 1.08px;
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1.08px;
 }
+
 .projects-text {
-    color:var(--add-gray);
-        line-height: 1.87;
-        letter-spacing: 0.48px;
+    color: var(--add-gray);
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
+.rules {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
 }
 
 .rules-item-title {
@@ -151,17 +212,23 @@ p
 .rules-item-text {
     color: var(--add-gray);
     font-size: 14px;
-    line-height:1.71;
+    line-height: 1.71;
     letter-spacing: 0.42px;
 }
-
+.do {
+    padding-top: 94px;
+    padding-bottom: 94px ;
+}
 .do-title {
     color: var(--main-color);
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
 }
-
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .teams-title {
     color: var(--main-color);
     text-align: center;
