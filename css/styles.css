@@ -124,6 +124,8 @@ p
 }
 .filters-btn:hover,.pages-btn:focus{
     background-color: var(--accent-color);
+    color: var(--add-white);
+    cursor: pointer;
 }
 .projects-title {
     color:var(--main-color);
