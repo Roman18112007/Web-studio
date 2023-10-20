@@ -101,8 +101,7 @@ p
     color: var(--add-white);
     text-align: center;
     font-size: 44px;
-    line-height: 60px;
-    /* 136.364% */
+    line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -112,28 +111,27 @@ p
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
-    /* 187.5% */
+    line-height: 1.87;
     letter-spacing: 0.96px;
     text-align: center;
     background: var(--accent-color);
 }
-.pages-btn {
+.filters-btn {
     color:var(--main-color);
      font-weight: 500;
         line-height: 1.62;
         letter-spacing: 0.48px;
 }
-.pages-btn:hover,.pages-btn:focus{
+.filters-btn:hover,.pages-btn:focus{
     background-color: var(--accent-color);
 }
-.pages-title {
+.projects-title {
     color:var(--main-color);
         font-size: 18px;
         line-height: 2;
         letter-spacing: 1.08px;
 }
-.pages-text {
+.projects-text {
     color:var(--add-gray);
         line-height: 1.87;
         letter-spacing: 0.48px;
@@ -148,8 +146,7 @@ p
 .rules-item-text {
     color: var(--add-gray);
     font-size: 14px;
-    line-height: 24px;
-    /* 171.429% */
+    line-height:1.71;
     letter-spacing: 0.42px;
 }
 
@@ -196,8 +193,7 @@ p
     color: var(--add-white);
     font-size: 14px;
     font-style: normal;
-    line-height: 24px;
-    /* 171.429% */
+    line-height: 1.71;
     letter-spacing: 0.42px;
     text-decoration: none;
 }
