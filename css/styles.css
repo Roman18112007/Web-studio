@@ -7,50 +7,6 @@
     --add-gray: #757575;
 }
 
-/* .WebStudio 
-{
-    color: var(--accent-color);
-}
-.portfolio
-{
-    color: var(--main-color);
-}
-.bussines
-{
-     background-color:var(--background-colour);
-}
-.effectively
-{
-    color: var(--add-white);
-}
-h3
-{
-    color: var(--main-color);
-}
-p
-{
-    color: var(--background-colour);
-}
-.footer
-{
-    background-color:var(--background-colour);
-}
-.team
-{
-    background-color: var(--bg-light-gray);
-}
-.maps
-{
-    color: var(--add-white);
-}
-.data
-{
-    color:var(--bg-light-gray);
-}
-.email
-{
-    color: var(--accent-color);
- }  */
 .body {
     font-family: Roboto;
 }
@@ -102,7 +58,10 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -144,8 +103,8 @@ img {
 
 .business {
     background-color: var(--background-colour);
-    margin-top: 188px;
-    margin-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .business-title {
@@ -168,7 +127,7 @@ img {
     background: var(--accent-color);
 }
 .project {
-    padding-top: 42px;
+    padding-top: 204px;
     padding-bottom: 94px;
 }
 .filters-btn {
@@ -216,7 +175,6 @@ img {
     letter-spacing: 0.42px;
 }
 .do {
-    padding-top: 94px;
     padding-bottom: 94px ;
 }
 .do-title {
@@ -226,6 +184,7 @@ img {
     letter-spacing: 1.08px;
 }
 .team {
+    background-color: var(--bg-light-gray);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -250,6 +209,8 @@ img {
 }
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--background-colour)
 }
 
