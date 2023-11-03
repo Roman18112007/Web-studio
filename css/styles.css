@@ -58,13 +58,13 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-.header>.container {
+.header {
     padding-top: 24px;
         padding-bottom: 25px;
+}
+.header>.container {
     display: flex;
     align-items: center;
-    gap: 93px;
 }
     
 .logo {
@@ -73,6 +73,7 @@ img {
     font-weight: 700;
     letter-spacing: 0.78px;
     color: var(--main-color);
+    margin-right: 93px;
 }
 
 .colortext {
@@ -98,6 +99,7 @@ img {
 .header-contacts-list {
     display: flex;
     gap: 50px;
+    margin-left: auto;
 }
 .header-contact-link {
     color: var(--add-gray);
@@ -116,9 +118,6 @@ img {
     background-color: var(--background-colour);
     padding-top: 200px;
     padding-bottom: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .business-title {
@@ -129,6 +128,7 @@ img {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    white-space: nowrap;
 }
 
 .business-btn {
@@ -216,6 +216,11 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.list-team {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
 .teams-title {
     color: var(--main-color);
     text-align: center;
@@ -249,9 +254,9 @@ img {
     letter-spacing: 0.78px;
 }
 .footer-content-address {
-    margin-bottom: 9px;
     display:flex;
     flex-direction: column;
+    gap: 9px;
 }
 .footer-map {
     color: var(--add-white);
