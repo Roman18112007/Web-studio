@@ -114,7 +114,7 @@ img {
     color: var(--accent-color);
 }
 
-.business>.container {
+.business {
     background-color: var(--background-colour);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -140,6 +140,8 @@ img {
     letter-spacing: 0.96px;
     text-align: center;
     background: var(--accent-color);
+    display: block;
+        margin: 0 auto;
 }
 .project {
     padding-top: 94px;
@@ -233,12 +235,13 @@ img {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
+    text-align: center;
 }
 
 .team-item-text {
     color: var(--add-gray);
-
     letter-spacing: 0.48px;
+    text-align: center;
 }
 
 .footer {
