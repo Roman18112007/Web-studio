@@ -147,6 +147,11 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
 .filters-btn {
     color: var(--main-color);
     font-weight: 500;
@@ -162,6 +167,10 @@ img {
 }
 .projects-list {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .projects-title {
     color: var(--main-color);
