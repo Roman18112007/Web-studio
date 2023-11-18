@@ -178,7 +178,7 @@ img {
     gap: 30px;
 }
 .projects-item {
-    flex-basis: calc((100%-60px)/3);
+    flex-basis: calc((100% - 60px)/3);
 }
 .projects-title {
     color: var(--main-color);
@@ -203,7 +203,7 @@ img {
     gap: 30px;
 }
 .rules-item {
-flex-basis: calc((100%-90px)/4);
+flex-basis: calc((100% - 90px)/4);
 }
 .rules-item-title {
     color: var(--main-color);
