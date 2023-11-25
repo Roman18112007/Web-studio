@@ -10,6 +10,7 @@
 .body {
     font-family: Roboto;
 }
+
 h1,
 h2,
 h3,
@@ -58,15 +59,17 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header {
     padding-top: 24px;
-        padding-bottom: 25px;
+    padding-bottom: 25px;
 }
+
 .header>.container {
     display: flex;
     align-items: center;
 }
-    
+
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -79,10 +82,12 @@ img {
 .colortext {
     color: var(--accent-color);
 }
+
 .nav-list {
     display: flex;
     gap: 50px;
 }
+
 .nav-link {
     color: var(--main-color);
     font-size: 14px;
@@ -101,6 +106,7 @@ img {
     gap: 50px;
     margin-left: auto;
 }
+
 .header-contact-link {
     color: var(--add-gray);
     font-size: 14px;
@@ -141,17 +147,20 @@ img {
     text-align: center;
     background: var(--accent-color);
     display: block;
-        margin: 0 auto;
+    margin: 0 auto;
 }
+
 .project {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.filters-list{
+
+.filters-list {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
+
 .filters-btn {
     color: var(--main-color);
     min-width: 73px;
@@ -170,6 +179,7 @@ img {
     color: var(--add-white);
     cursor: pointer;
 }
+
 .projects-list {
     margin-top: 50px;
     display: flex;
@@ -177,9 +187,11 @@ img {
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .projects-item {
     flex-basis: calc((100% - 60px)/3);
 }
+
 .projects-title {
     color: var(--main-color);
     font-size: 18px;
@@ -192,19 +204,49 @@ img {
     line-height: 1.87;
     letter-spacing: 0.48px;
 }
+
 .rules {
     padding-top: 94px;
     padding-bottom: 94px;
-    
+
 }
+
 .rules-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.rules-item {
-flex-basis: calc((100% - 90px)/4);
+
+.rules-item::before {
+    flex-basis: calc((100% - 90px)/4);
+    content: '';
+    display:block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--bg-light-gray);
+    margin-bottom: 30px;
 }
+.rules-item:nth-child(1)::before {
+    background-image: url('../images/rules/rules_img.1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rules-item:nth-child(2)::before {
+    background-image: url('../images/rules/rules_img.2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rules-item:nth-child(3)::before {
+    background-image: url('../images/rules/rules_img.3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rules-item:nth-child(4)::before {
+    background-image: url('../images/rules/rules_img.4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .rules-item-title {
     color: var(--main-color);
     font-size: 14px;
@@ -218,14 +260,17 @@ flex-basis: calc((100% - 90px)/4);
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+
 .do {
-    padding-bottom: 94px ;
+    padding-bottom: 94px;
 }
+
 .do-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .do-title {
     color: var(--main-color);
     text-align: center;
@@ -233,16 +278,19 @@ flex-basis: calc((100% - 90px)/4);
     letter-spacing: 1.08px;
     margin-bottom: 50px;
 }
+
 .team {
     background-color: var(--bg-light-gray);
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .list-team {
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .teams-title {
     color: var(--main-color);
     text-align: center;
@@ -269,6 +317,7 @@ flex-basis: calc((100% - 90px)/4);
     padding-bottom: 60px;
     background-color: var(--background-colour)
 }
+
 .footer-item-text {
     color: var(--add-white);
     font-family: Raleway;
@@ -276,11 +325,13 @@ flex-basis: calc((100% - 90px)/4);
     font-weight: 700;
     letter-spacing: 0.78px;
 }
+
 .footer-content-address {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 9px;
 }
+
 .footer-map {
     color: var(--add-white);
     font-size: 14px;
