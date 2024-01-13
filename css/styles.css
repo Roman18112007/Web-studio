@@ -114,6 +114,8 @@ img {
   font-weight: 500;
   letter-spacing: 0.28px;
   text-decoration: none;
+display: flex;
+justify-content: center;
 }
 
 .contact-icon {
@@ -432,7 +434,7 @@ img {
 }
 
 .client-link:hover {
-  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .icon-client {
@@ -498,14 +500,11 @@ img {
 .footer-list {
   display: flex;
   gap: 10px;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
   align-items: center;
   justify-content: center;
 }
 .footer-link {
-  background-color: var(--main-color);
+  background-color: #FFFFFF1A;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,5 +521,5 @@ img {
 }
 .footer-container{
 display: flex;
-gap: 156px;
+gap:76px;
 }
