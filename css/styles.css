@@ -329,7 +329,24 @@ justify-content: center;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
+.do-item {
+  position: relative;
+}
 
+.do-subtitle{
+  color: var(--add-white);
+  background-color: rgba(47, 48, 58, 0.80);
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    width: 370px;
+      height: 70px;
+position: absolute;
+ bottom:0;
+ padding-top: 27px;
+}
 .team {
   background-color: var(--bg-light-gray);
   padding-top: 94px;
@@ -482,7 +499,10 @@ justify-content: center;
   letter-spacing: 0.42px;
   text-decoration: none;
 }
-
+.footer-date:hover,
+.footer-date:focus{
+  opacity: 0.6;
+}
 .logo-footer {
   margin-bottom: 20px;
   color: var(--add-white);
