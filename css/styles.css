@@ -679,6 +679,7 @@ color: var(--main-color);
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
+  margin-bottom: 12px;
  }
 .order-label{
  color: var(--add-gray);
@@ -699,7 +700,7 @@ position: relative;
       display: block;
       padding-left: 42px;
       outline: none; 
-       margin-bottom: 4px;
+       margin-bottom:4px;
      }
 
 .order-textarea{
