@@ -28,8 +28,7 @@
       </nav>
       <ul class="list header-contacts-list">
         <li class="header-contact-item">
-
-          <a class="header-contact-link" href="mailto:info@devstudio.com"><svg class="contact-icon" width="16"
+<a class="header-contact-link" href="mailto:info@devstudio.com"><svg class="contact-icon" width="16"
               height="12">
               <use href="./images/icon/symbol-defs.svg#icon-email"></use>
             </svg>info@devstudio.com</a>
@@ -47,7 +46,7 @@
     <section class="business">
       <div class="container">
         <h1 class="business-title">Ефективні рішення для <br>вашого бізнесу</br></h1>
-        <button class="business-btn" type="button">Замовити послугу</button>
+        <button class="business-btn" type="button" data-modal-open>Замовити послугу</button>
       </div>
     </section>
     <section class="rules">
@@ -260,10 +259,45 @@
           </a>
         </li>
       </ul>
-    </div>
+    </div> 
+    <div class="footer-form-subscribe">
+    <p class="footer-form-text">Підпишіться на розсилку</p>
+    <form class="footer-form">
+      <input type="email" name="email" placeholder="E-mail" class="footer-form-input">
+      <button type="submit" class="footer-form-btn">Підписатися</button>
+        <svg class="icon-subscribe" width="24" height="24">
+          <use href="./images/icon/symbol-defs.svg#icon-send"></use>
+        </svg>
+
+    </form>
   </div>
+  </div>
+ 
     </div>
   </footer>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="review-btn" type="button" data-modal-close><svg width="18" height="18">
+      <use href="./images/icon/symbol-defs.svg#icon-close"></use>
+    </svg></button>
+    <p class="review-title">Залиште свої дані, ми вам передзвонимо</p>
+    <form class="review-form">
+    <label class="review-label">Ім'я<input class="review-input" type="text" name="name"><svg class="review-icon" width="18" height="18">
+      <use href="./images/icon/symbol-defs.svg#icon-person"></use>
+    </svg></label>
+    <label class="review-label">Телефон <input class="review-input" type="text" name="phone"><svg class="review-icon" width="18" height="18">
+        <use href="./images/icon/symbol-defs.svg#icon-phone"></use>
+      </svg></label>
+      <label class="review-label">Пошта <input class="review-input" type="email" name="email"><svg class="review-icon" width="18" height="18">
+          <use href="./images/icon/symbol-defs.svg#icon-email-black"></use>
+        </svg></label>
+        <label class="review-label">Коментар <textarea class="review-textarea" name="comment" placeholder="Введіть текст"></textarea>
+          <label class="review-label-agree"><input class="review-input-agree" type="checkbox">Погоджуюся з розсилкою та приймаю <a class="review-link" href="">Умови договору</a></label>
+          <button class="review-btn-send" type="button">Відправити</button>
+          </form>
+  </div>
+</div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
