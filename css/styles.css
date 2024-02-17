@@ -93,6 +93,7 @@ img {
   display: block;
   padding: 32px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -109,6 +110,12 @@ img {
   position: absolute;
   bottom: 0;
   border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current:focus,
+.current:hover {
+  transform: translateY(-10px);
 }
 
 .header-contacts-list {
@@ -125,12 +132,13 @@ img {
   text-decoration: none;
   display: flex;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon {
   fill: var(--add-gray);
   margin-right: 10px;
-
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-link:hover .contact-icon,
@@ -177,6 +185,7 @@ img {
   min-width: 73px;
   border-radius: 4px;
   border: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .business-btn:hover,
@@ -207,6 +216,8 @@ img {
   border-color: transparent;
   border: none;
   min-width: 73px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  ;
 }
 
 .filters-btn:hover,
@@ -277,6 +288,7 @@ img {
   text-decoration: none;
   display: block;
   border: 1px solid #EEE;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-link:focus,
@@ -454,10 +466,12 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), ;
 }
 
 .icon-social {
   fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
@@ -497,6 +511,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover {
@@ -505,6 +520,7 @@ img {
 
 .icon-client {
   fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover .icon-client,
@@ -547,6 +563,7 @@ img {
   font-style: normal;
   letter-spacing: 0.42px;
   text-decoration: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-date:hover,
@@ -583,6 +600,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-footer {
@@ -630,6 +648,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 15px;
   width: 358px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-input:hover,
@@ -656,6 +675,7 @@ img {
   height: 50px;
   padding-right: 28px;
   position: relative;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-btn:focus,
@@ -717,6 +737,7 @@ img {
   position: absolute;
   right: 8px;
   top: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:focus,
@@ -768,6 +789,7 @@ img {
   padding-left: 42px;
   outline: none;
   margin-top: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-textarea {
@@ -781,6 +803,7 @@ img {
   letter-spacing: 0.12px;
   margin-top: 4px;
   padding: 12px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -798,6 +821,7 @@ img {
   position: absolute;
   top: 28px;
   left: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-label-agree {
@@ -838,4 +862,5 @@ img {
   margin: 0 auto;
   display: block;
   margin-top: 30px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
